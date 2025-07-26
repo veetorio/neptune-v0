@@ -157,7 +157,8 @@ function Eventos() {
                         state : {
                             escricoes : escricoes,
                             nome : nome,
-                            id : idEvento
+                            id : idEvento,
+                            type : "eventos"
                         }
                     })
                  }} />)

@@ -2,7 +2,7 @@ import type { UseFormRegisterReturn } from "react-hook-form"
 import type { HTMLInputTypeAttribute } from "react"
 
 function Entrada(props: { label?: string, placeholder?: string, type?: HTMLInputTypeAttribute, saveField : UseFormRegisterReturn}) {
-    return <div className="flex flex-col">
+    return <div className="flex flex-col items-start">
         {
             props.label ?? <label htmlFor="" className="text-sm">{props.label}</label>
         }

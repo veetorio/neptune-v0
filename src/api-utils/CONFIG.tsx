@@ -5,7 +5,8 @@ export interface Inscricao {
   local: string;
   nome: string;
   atividade: boolean;
-  idade : number
+  idade : number,
+  nascimento : string
 }
 
 export interface EventoI {
